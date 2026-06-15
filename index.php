@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['theme_id'])) {
     exit;
 }
 
-$selectedThemeId = $_COOKIE['selected_theme'] ?? 'claude';
+$selectedThemeId = $_COOKIE['selected_theme'] ?? 'perplexity';
 $currentTheme = $themes[0];
 
 foreach ($themes as $theme) {

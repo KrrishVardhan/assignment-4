@@ -4,7 +4,7 @@ require_once '../config/themes.php';
 
 $basePath = "../";
 
-$selectedThemeId = $_COOKIE["selected_theme"] ?? "claude";
+$selectedThemeId = $_COOKIE["selected_theme"] ?? "perplexity";
 $currentTheme = $themes[0];
 
 foreach ($themes as $theme) {
